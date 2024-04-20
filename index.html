@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Complex UI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav-info collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Section 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Section 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Section 3</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex gap-2 for-search" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Carousel -->
+
+        <div class="carousel-container  ">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1403653/pexels-photo-1403653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block carousel-img w-100" alt="First Carousel">
+                        <div class="carousel-caption">
+                            <h5>Traditional Fair</h5>
+                            <p>A Cradler with many more animals design sheet.</p>
+                            <button type="button" class="btn btn-primary rounded">Call to Action</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block carousel-img w-100" alt="Second Carousel">
+                        <div class="carousel-caption">
+                            <h5>Buildings View</h5>
+                            <p>Some builidings are representing here with various designs & styles.</p>
+                            <button type="button" class="btn btn-primary rounded">Call to Action</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/698508/pexels-photo-698508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block w-100 carousel-img" alt="Third Carousel">
+                        <div class="carousel-caption">
+                            <h5>Hanging Light</h5>
+                            <p>A big hanging light lamp with a great design as well.</p>
+                            <button type="button" class="btn btn-primary rounded">Call to Action</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- First items div -->
+
+        <div class="first-items-container d-flex gap-2 justify-content-center flex-wrap">
+
+            <div class="first-containers-first-item first-three-items-container">
+                <img src="https://cdn.pixabay.com/photo/2021/07/10/18/37/carousel-6402074_1280.jpg"
+                    class=" first-containers-imgs mt-4 pt-4" alt="First Place Image">
+                <p class="text-center">A Little village of abroad</p>
+            </div>
+            <div class="first-containers-second-item first-three-items-container">
+                <img src="https://cdn.pixabay.com/photo/2016/07/01/23/16/carnival-1492099_960_720.jpg"
+                    class=" first-containers-imgs mt-4 pt-4" alt="Second Place Image">
+                <p class="text-center">A visited garden & park.</p>
+            </div>
+            <div class="first-containers-third-item first-three-items-container">
+                <img src="https://cdn.pixabay.com/photo/2023/11/18/08/45/carnival-8395884_1280.jpg"
+                    class=" first-containers-imgs mt-4 pt-4" alt="Third Place Image">
+                <p class="text-center">View of a little village fair.</p>
+            </div>
+
+        </div>
+
+        <!-- Second Items  -->
+
+        <br>
+        <br>
+        <br>
+
+        <div class="second-div">
+            <div class="grid" style="height: 600px;">
+
+                <div class="items " id="item1">
+                    <img src="first image.avif" alt="first Image" class="items-img">
+                </div>
+                <div class="items" id="item2">
+                    <img src="second image.avif" alt="Second Image" class="items-img">
+                </div>
+                <div class="items" id="item3">
+                    <img src="Third image.avif" alt="Third Image" class="items-img">
+                </div>
+                <div class="items" id="item4">
+                    <img src="Fourth image.avif" alt="Fourth Image" class="items-img">
+                </div>
+                <div class="items" id="item5">
+                    <img src="Fifth image.avif" alt="Fifth Image" class="items-img">
+                </div>
+                <div class="items" id="item6">
+                    <img src="Sixth image.avif" alt="Sixth Image" class="items-img">
+                </div>
+                <div class="items" id="item7">
+                    <img src="seventh image.avif" alt="Seventh Image" class="items-img">
+                </div>
+                <div class="items" id="item8">
+                    <img src="Eighth image.avif" alt="Eighth Image" class="items-img">
+                </div>
+                <div class="items" id="item9">
+                    <img src="ninth image.avif" alt="Ninth Image" class="items-img">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Card Section  -->
+
+        <br>
+        <br>
+    
+
+        <div class="Card-container container-fluid">
+            <div class="card">
+                <img src="first-card.avif" class="card-img-top w-100" alt="First Card">
+                <div class="card-body">
+                    <h5 class="card-title">Laptop</h5>
+                    <p class="card-text">This is the one step towards to future, It helps a lot to grow & improve our technology.</p>
+                    <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="second-card.avif" class="card-img-top" alt="Second Card">
+                <div class="card-body">
+                    <h5 class="card-title">Technology</h5>
+                    <p class="card-text">Technology is the essential and most important things to our daily life,we need to use them wisely.</p>
+                    <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Third Card.avif" class="card-img-top" alt="Third Card">
+                <div class="card-body">
+                    <h5 class="card-title">Artificial Intelligence</h5>
+                    <p class="card-text">Artificial Intelligence (AI) is growing so faster we need to adobt them to grow ourselves.</p>
+                    <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer-container container-fluid row d-flex justify-content-around align-items-center mt-3">
+            <div class="useful-links d-flex flex-column col-sm-4 col-12">
+                <h5>Useful Links</h5>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+
+            <div class="more-links d-flex flex-column col-sm-4 col-12">
+                <h5>More Links</h5>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+                <a href="#">Link 6</a>
+            </div>
+
+            <div class="contact-us col-sm-4 col-12 mt-3 d-flex flex-column">
+                <h5>Contact Us</h5>
+                <div class="contact-text">
+                    <p>Email: example@example.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright d-flex m-3 justify-content-between">
+            <p>&copy; 2023 Complex UI. All Rights Reserved.</p>
+            <button type="button" class="btn btn-primary"><a href="#navbar" class="text-white ">Back to Top</a></button>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
